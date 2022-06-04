@@ -27,18 +27,23 @@ Then, research the question to expand on your answer. Even if you feel you have 
 3. What is object-oriented programming? How is it different than functional programming?
 
   Your answer:
+  Object oriented programming allows for easy access of data that carries traits and is reusable. So instead of having to rewrite code over and over again it allows use to be organized and efficient. You can create a class that describes an object within its constructor. Then reuse that information passing it to other components within our code.
+  I'm not to familiar with functional programing but I would guess that it is a way of coding that requires you to make specific functions for every piece of code you write that are not reusable. 
 
 
   Researched answer:
+  Functional programming is non-manipulative un like Object Oriented Programming. Functions are "as is" in Functional programming and will have the same result with what every arguments are placed inside them. This provides for a more efficient, bug free, code that can actually reused easily it but it is harder to think through this type of code because it does not relate much to real life scenarios, its more of a computer language than a human language. While OOP is more human relative but is actually know to be less reusable. OOP is mostly use for more architectural projects that need to be broken up into separate building blocks that work together like building a house you need separate templates for electrical, foundations, design, and plumbing. Then OOP puts them together to create the house.
+
 
 
 
 4. What is the difference between a Float and an Integer in Ruby?
 
   Your answer:
+  Integers are whole numbers with no remainders. While a float is an integer that has a decimal or fractional parts.
 
   Researched answer:
-
+  Both numerical data, Floats are used when there is more precision needed for a problem. Floats can be changed into Integers or whole numbers by adding Math.floor to them which round the decimal to the nearest whole number.  
 
 
 5. Ruby has an implicit return. What does that mean?
