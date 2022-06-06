@@ -55,7 +55,7 @@ describe("rmvIndexShuffle", () => {
         newArr.sort(() => Math.random() - 0.5);
         return newArr;
     }
-// I dont know why this test keeps failing because I know this code works. I tried looking up 
+// I dont know why this test keeps failing because I know this code works. I followed the link for running this type of jest test where the code does not exactly match the output order but contains the same elements. It keeps telling me that I have a syntax error for 'const' when calling on my function where it expects ','?. I looked up the error code and every thing I saw said its more of a general code that no one really had an exact answer for what might be wrong.
     // FAIL  ./code-challenges.test.js
     // ● Test suite failed to run
   
